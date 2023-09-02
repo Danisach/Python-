@@ -1,0 +1,20 @@
+#Floor Division
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+fd=a//b
+print("Floor Division of", a,"and", b,"is :", fd)
+
+# power a and b
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+result= pow(a, b)
+print("Power of", a,"and", b,"is :", result)
+
+#check number is equal or not
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+#find numbers are equal
+if a==b:
+ print('True')
+else:
+ print('False')
